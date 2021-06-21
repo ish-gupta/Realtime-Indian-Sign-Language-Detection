@@ -57,7 +57,7 @@ Before running this project, make sure you have following dependencies -
 Now, use Installation Master Script, which will help install all the packages which arent already in your environment. 
 
 Running
-To run the project, perform following steps -
+To run the project, perform following steps:
 
 1. Run "Image Collection (WebCam).ipynb" - this ipynb will Collect Images directly from your webcam and save it in your folder named "CollectedImages" 
 2. Run "Automate Labelling.ipynb" - this ipynb detects your hands using MediaPipe and retrieves rectangular coordinates of hand location.This ipynb generates XML files with the coordinates saved for each image. Set the path of all folders the same as where collected images are stored. 
